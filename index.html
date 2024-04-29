@@ -196,7 +196,41 @@ less training time!
   </section>
 
   <!-- Method Overview -->
-  
+  <!-- section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Our Findings</h2>
+          <h2 class="title is-4">VLMs show imbalanced performance due to a long-tailed concept distribution</h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <!-- Your image here -->
+              <!-- <img src="static/images/imagenet_1k_freq.png" alt="1" style="width: 250px; height: auto; display: block; margin: 0 auto;"/>
+              <img src="static/images/imagenet_1k_freq.png" alt="1" style="width: 250px; height: auto; display: block; margin: 0 auto;"/> -->
+              <!-- <img src="static/images/promptgpt.png" alt="Image illustrating ChatGPT interaction with VLMs"
+                style="width: 850px; height: auto; display: block; margin: 0 auto;"> -->
+                
+    
+    
+                      
+    
+                          
+    
+                        </div>    
+    
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section >
   <!-- End Method Overview -->
 
 
@@ -233,76 +267,24 @@ less training time!
                       <!-- Image container -->
                       <div class="images-container">
                         <div class="image-with-subtitle">
-                          <img src="static/images/bank_swallow.png" alt="1" />
-                          <p class="subtitle-text" style="text-align: justify;">
-                            <strong>Bank Swallow</strong>, a small bird with brown back and white belly. When prompted with the original concept name (bank swallow), 
-                            both DALL-E 3 and SD-XL generate incorrect images of birds with incorrect black backs. However, prompting with the most frequent synonym (sand martin) 
-                            guides both systems to produce correct images.
-                          </p>
+                          <img src="static/images/TrainInference.png" alt="1" />
+                          
                         </div>
                         
                       </div>
                       
                     </div>
 
-                    <div class="item">
-                      <!-- Image container -->
-                      <div class="images-container">
-                        <div class="image-with-subtitle">
-                          <img src="static/images/Thorn Apple.png" alt="1" />
-                          <p class="subtitle-text" style="text-align: justify;"><strong>Thorn Apple</strong>, a plant with large, white, trumpet-shaped flowers. When prompted with the original concept name(thorn apple),
-                            DALL-E 3 generates an image with sharp thorns along its stem. Even worse, SD-XL takes the names superficially and generates an apple with thorns. On the contrary, prompting with the most frequent synonym (datura) leads to correct images in both systems.</p>
-                        </div>
-                      </div>
-                    </div>
+                    
 
-                    <div class="item">
-                      <!-- Image container -->
-                      <div class="images-container">
-                        <div class="image-with-subtitle">
-                          <img src="static/images/Pocket Orchid.png" alt="1" />
-                          <p class="subtitle-text" style="text-align: justify;"><strong>Hard Leaved Pocket Orchid</strong>, a type of orchid with a distinctive pouch and symmetrical large petals. When prompted with the original conceptname(hard leaved pocket orchid),
-                            both DALL-E 3 and SD-XL generate incorrect images (note the missing pocket and shape of the petals). However, when prompted with the most frequent synonym (Paphiopedilum micranthum), 
-                            DALL-E 3 produces the correct image. In contrast, SD-XL can recover the shape of petals but still misses the pocket.</p>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="item">
-                      <!-- Image container -->
-                      <div class="images-container">
-                        <div class="image-with-subtitle">
-                          <img src="static/images/aeroplane.png" alt="1" />
-                          <p class="subtitle-text" style="text-align: justify;"><strong>BAE 146-200</strong>,
-                            an airplane with 4 engines. When prompted with the original concept name (BAE 146-200), both DALL-E 3 and SD-XL fail by generating only 2 engines. DALL-E 3 also mistakenly generates extra wings sometimes!
-                            However, when prompted with the most frequent synonym (avro rj85), both can generate correct images with 4 engines.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <!-- Image container -->
-                      <div class="images-container">
-                        <div class="image-with-subtitle">
-                          <img src="static/images/keyboard.png" alt="1" />
-                          <p class="subtitle-text" style="text-align: justify;">keyboard space bar,
-                            a long bar at the bottom of a computer keyboard. When prompted with the original concept name (keyboard space bar), 
-                            both DALL-E 3 and SD-XL fail by focusing on generating images of the keyboard. However, when prompted with the most frequent synonyms (space bar), both can generate correct images.</p>
-                        </div>
-                      </div>
-                    </div>
+                    
                     </div>
                   </div>
                 </div>
               
             </section>
-            <div class="item">
-              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
-                We show some tailed concepts where DALL-E 3 and SD-XL can fail to generate correct images when using the original concept name.
-                However using REAL-Prompt, which uses the most frequent synonym to construct prompts, can help produce correct images.
-              </p>
-            </div>
-          </div>
+            
           </div>
         </div>
       </div>
