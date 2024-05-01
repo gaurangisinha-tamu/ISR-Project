@@ -254,7 +254,9 @@ less training time!
           <div class="content has-text-justified">
             <img src="static/images/Model Diagram.png" alt="Showcasing the efficiency of REAL-Prompt."
                 style="height: auto; display: block; margin: 10px;">
-              
+                <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;" >
+                "We use a two tower model with two main components - user BERT and item BERT. The selective user profile composed of keyphrases is fed through the user BERT and the item descriptions are fed through the item BERT. The BERT model is frozen except the last layer which is fine-tuned. For items, we also have images which we can optionally feed through the clip encoder to get embeddings. We pass the output of these two BERT models (and the CLIP encoder for items) through a feed forward network next. We can also feed in collaborative signals using matrix factorization on the ratings matrix. We concatenate these user (or item) embeddings obtained from the factorization model with the BERT model outputs. We obtain a final score using a scalar product."
+            </p>
               <div class="item">
                 <!-- Your image here -->
                 
